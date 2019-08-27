@@ -1,0 +1,2 @@
+export const SESSION_SIGN_IN = 'SESSION_SIGN_IN'
+export const SESSION_SIGN_OUT = 'SESSION_SIGN_OUT'
