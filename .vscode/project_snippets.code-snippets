@@ -1,0 +1,110 @@
+{
+	"Create stateless component": {
+		"scope": "javascript",
+		"prefix": "component",
+		"body": [
+			"import React from 'react'",
+			"\n",
+			"const ${TM_FILENAME_BASE/(^.)/${1:/upcase}/} = ({${2:props}}) => {",
+			"",
+			"\treturn (",
+			"\t\t${1}",
+			"\t)",
+			"}$1",
+			"\n",
+			"export default ${TM_FILENAME_BASE/(^.)/${1:/upcase}/}",
+		],
+		"description": "Stateless component template"
+	},
+	"New Action": {
+		"scope": "javascript",
+		"prefix": "action",
+		"body": [
+			"export const ${1:ACTION} = '${1:ACTION}'",
+		],
+		"description": "Action template"
+	},
+	"New Action Creator": {
+		"scope": "javascript",
+		"prefix": ["action-creator, action creator"],
+		"body": [
+			"export const ${1:name} = payload => ({",
+			"\ttype: ${3:type},",
+			"\tpayload,",
+			"})",
+		],
+		"description": "Action creator template"
+	},
+	"Styled component": {
+		"scope": "javascript",
+		"prefix": "styled",
+		"body": [
+			"const ${1:Name} = styled.${2:element}`",
+			"\t$3",
+			"`",
+		],
+		"description": "Styled component template"
+	},
+	"Link Component": {
+		"scope": "javascript",
+		"prefix": "link",
+		"body": [
+			"<Link to=\"${1:route}\">${2:text}</Link>",
+		],
+		"description": "Link component template"
+	},
+	"UseEffect": {
+		"scope": "javascript",
+		"prefix": ["useEffect", "useeffect"],
+		"body": [
+			"useEffect(() => {",
+			"\t$1",
+			"}, [${2:prop}])",
+		],
+		"description": "UseEffect hook"
+	},
+	"UseState": {
+		"scope": "javascript",
+		"prefix": ["useState", "usestate"],
+		"body": [
+			"const [${1:value}, ${2:setValue}] = useState(${3:initialValue})",
+		],
+		"description": "UseState hook"
+	},
+	"UseRef": {
+		"scope": "javascript",
+		"prefix": ["useRef", "useref"],
+		"body": [
+			"const ${1:name} = useRef(null)",
+		],
+		"description": "UseRef hook"
+	},
+	"UseSelector": {
+		"scope": "javascript",
+		"prefix": ["useSelector", "useselector"],
+		"body": [
+			"const ${1:name} = useSelector(state => state.getIn(['$2', '$3', $4]))",
+		],
+		"description": "UseSelector hook"
+	},
+	"UseDispatch": {
+		"scope": "javascript",
+		"prefix": ["useDispatch", "usedispatch"],
+		"body": [
+			"const dispatch = useDispatch()",
+		],
+		"description": "UseDispatch hook"
+	},
+	"UseStaticQuery": {
+		"scope": "javascript",
+		"prefix": ["useStaticQuery", "usestaticquery"],
+		"body": [
+			"const data = useStaticQuery(graphql`",
+			"\tquery {",
+			"\t\t${1:query}",
+			"\t}",
+			"`)"
+		],
+		"description": "UseStaticQuery hook"
+	},
+}
