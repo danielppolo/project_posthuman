@@ -15,6 +15,7 @@ const IndexPage = () => (
       <p>From a very early stage of his life he developed an OCD for design.</p>
       <p>He graduated from architecture but he spends the day coding for just another startup.</p>
       <p>Daniel drinks espresso and types with Futura.</p>
+
     </Typed>
 
   </LayoutCenter>
