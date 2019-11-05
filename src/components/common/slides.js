@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
-import Reveal from 'reveal.js'
+
+const Reveal = typeof navigator !== 'undefined' ? require('reveal.js') : null
+
 
 const Slides = ({ children }) => {
   useEffect(() => {
