@@ -1,6 +1,6 @@
 import React from 'react'
-import Slides from 'components/common/slides'
-import Slide from 'components/common/slide'
+import Slides from '../../components/common/slides'
+import Slide from '../../components/common/slide'
 
 const HelloWorld = ({ props }) => (
   <Slides>
