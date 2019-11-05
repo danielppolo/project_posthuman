@@ -16,6 +16,7 @@ const IndexPage = () => (
       <p>He graduated from architecture but he spends the day coding for just another startup.</p>
       <p>Daniel drinks espresso and types with Futura.</p>
     </Typed>
+
   </LayoutCenter>
 )
 
