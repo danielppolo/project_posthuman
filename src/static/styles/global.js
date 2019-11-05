@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     font-style: normal;
     font-weight: 100 900;
     font-stretch: 75% 125%;
-    src: url('../fonts/Agrandir-Variable.ttf') format('truetype');
+    src: url('/fonts/Agrandir-Variable.ttf') format('truetype');
 }
 
  html,
