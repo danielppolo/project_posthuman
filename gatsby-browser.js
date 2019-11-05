@@ -9,11 +9,13 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import storeInit from 'store'
 import RevealStyle from 'static/styles/reveal'
+import GlobalStyle from 'static/styles/global'
 
 const store = storeInit()
 
 export const wrapRootElement = ({ element }) => (
   <>
+    <GlobalStyle />
     <RevealStyle />
     <Provider store={store}>
       {element}

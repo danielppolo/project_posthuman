@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
  /*********************************************
   * GLOBAL STYLES
   *********************************************/
- 
+/*  
  html,
  body {
      width: 100%;
@@ -45,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
  
      background-color: #fff;
      color: #000;
- }
+ } */
  
  
  /*********************************************
@@ -551,7 +551,6 @@ const GlobalStyle = createGlobalStyle`
      right: 8px;
      bottom: 8px;
      z-index: 31;
-     font-family: Helvetica, sans-serif;
      font-size: 12px;
      line-height: 1;
      color: #fff;
