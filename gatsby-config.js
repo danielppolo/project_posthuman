@@ -32,8 +32,13 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-root-import',
-      options: aliases,
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: aliases,
+        extensions: [
+          'js',
+        ],
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

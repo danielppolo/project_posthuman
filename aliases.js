@@ -1,22 +1,22 @@
 const path = require('path')
 
 const alias = {
-  src: path.join(__dirname, 'src'),
-  pages: path.join(__dirname, 'src/pages'),
-  components: path.join(__dirname, 'src/components'),
-  common: path.join(__dirname, 'src/components/common'),
-  layouts: path.join(__dirname, 'src/components/layouts'),
-  hooks: path.join(__dirname, 'src/hooks'),
-  actions: path.join(__dirname, 'src/actions'),
-  reducers: path.join(__dirname, 'src/reducers'),
-  'action-creators': path.join(__dirname, 'src/action-creators'),
-  sagas: path.join(__dirname, 'src/sagas'),
-  services: path.join(__dirname, 'src/services'),
-  router: path.join(__dirname, 'src/router'),
-  assets: path.join(__dirname, 'src/assets'),
-  store: path.join(__dirname, 'src/store'),
-  utils: path.join(__dirname, 'src/utils'),
-  static: path.join(__dirname, 'src/static'),
+  src: path.resolve(__dirname, 'src'),
+  pages: path.resolve(__dirname, 'src/pages'),
+  components: path.resolve(__dirname, 'src/components'),
+  common: path.resolve(__dirname, 'src/components/common'),
+  layouts: path.resolve(__dirname, 'src/components/layouts'),
+  hooks: path.resolve(__dirname, 'src/hooks'),
+  actions: path.resolve(__dirname, 'src/actions'),
+  reducers: path.resolve(__dirname, 'src/reducers'),
+  'action-creators': path.resolve(__dirname, 'src/action-creators'),
+  sagas: path.resolve(__dirname, 'src/sagas'),
+  services: path.resolve(__dirname, 'src/services'),
+  router: path.resolve(__dirname, 'src/router'),
+  assets: path.resolve(__dirname, 'src/assets'),
+  store: path.resolve(__dirname, 'src/store'),
+  utils: path.resolve(__dirname, 'src/utils'),
+  static: path.resolve(__dirname, 'src/static'),
 }
 
 module.exports = alias
