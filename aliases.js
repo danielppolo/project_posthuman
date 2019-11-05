@@ -4,6 +4,7 @@ const alias = {
   src: path.join(__dirname, 'src'),
   pages: path.join(__dirname, 'src/pages'),
   components: path.join(__dirname, 'src/components'),
+  common: path.join(__dirname, 'src/components/common'),
   layouts: path.join(__dirname, 'src/components/layouts'),
   hooks: path.join(__dirname, 'src/hooks'),
   actions: path.join(__dirname, 'src/actions'),
@@ -15,6 +16,7 @@ const alias = {
   assets: path.join(__dirname, 'src/assets'),
   store: path.join(__dirname, 'src/store'),
   utils: path.join(__dirname, 'src/utils'),
+  static: path.join(__dirname, 'src/static'),
 }
 
 module.exports = alias

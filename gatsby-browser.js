@@ -8,9 +8,15 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import storeInit from 'store'
+import RevealStyle from 'static/styles/reveal'
 
 const store = storeInit()
 
 export const wrapRootElement = ({ element }) => (
-  <Provider store={store}>{element}</Provider>
+  <>
+    <RevealStyle />
+    <Provider store={store}>
+      {element}
+    </Provider>
+  </>
 )
