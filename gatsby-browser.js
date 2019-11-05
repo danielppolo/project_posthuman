@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 import storeInit from 'store'
 import RevealStyle from 'static/styles/reveal'
 import GlobalStyle from 'static/styles/global'
+import './src/static/styles/font.css'
 
 const store = storeInit()
 

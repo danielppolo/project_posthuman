@@ -1,14 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-@font-face {
-    font-family: 'Agrandir';
-    font-style: normal;
-    font-weight: 100 900;
-    font-stretch: 75% 125%;
-    src: url('../fonts/Agrandir-Variable.ttf') format('truetype');
-}
-
  html,
  body {
      width: 100%;
