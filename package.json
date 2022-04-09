@@ -29,7 +29,7 @@
     "immutable": "4.0.0-rc.12",
     "isomorphic-fetch": "2.2.1",
     "lottie-react-web": "2.1.4",
-    "moment": "2.24.0",
+    "moment": "2.29.2",
     "nprogress": "0.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
